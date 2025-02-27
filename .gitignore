@@ -1,0 +1,27 @@
+# General exclusions
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# ELK-specific exclusions (if testing locally)
+elasticsearch/
+logstash/
+kibana/
+data/
+logs/
+
+# Miscellaneous
+*.md.bak  # Backup Markdown files
+node_modules/  # If you add any Node.js tools later
+dist/  # If you build anything
